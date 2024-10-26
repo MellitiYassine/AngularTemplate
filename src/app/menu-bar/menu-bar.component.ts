@@ -8,53 +8,36 @@ import { MenuItem } from 'primeng/api';
 })
 export class MenuBarComponent implements OnInit {
   items: MenuItem[] | undefined;
+  countries: any[] | undefined;
+
+  selectedCountry: { name: string, code: string } = {
+    name: 'English',
+    code: 'GB'
+  };
 
   ngOnInit() {
     this.items = [
       {
-        label: 'Home',
-        icon: 'pi pi-home'
+        label: 'Apps',
+
       },
       {
-        label: 'Features',
-        icon: 'pi pi-star'
+        label: 'Chat',
       },
       {
-        label: 'Projects',
-        icon: 'pi pi-search',
-        items: [
-          {
-            label: 'Components',
-            icon: 'pi pi-bolt'
-          },
-          {
-            label: 'Blocks',
-            icon: 'pi pi-server'
-          },
-          {
-            label: 'UI Kit',
-            icon: 'pi pi-pencil'
-          },
-          {
-            label: 'Templates',
-            icon: 'pi pi-palette',
-            items: [
-              {
-                label: 'Apollo',
-                icon: 'pi pi-palette'
-              },
-              {
-                label: 'Ultima',
-                icon: 'pi pi-palette'
-              }
-            ]
-          }
-        ]
+        label: 'Calendar',
       },
       {
-        label: 'Contact',
-        icon: 'pi pi-envelope'
+        label: 'Email',
       }
     ]
+
+    this.countries = [
+      { name: 'English', code: 'GB' },
+      { name: 'French', code: 'FR' },
+      { name: 'German', code: 'DE' },
+      { name: 'Chineese', code: 'CN' }
+    ]
   }
+
 }

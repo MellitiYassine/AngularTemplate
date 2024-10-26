@@ -1,7 +1,8 @@
 .container {
     margin-left: 10px;
     margin-right: 10px;
-    height: 100%;
+    height: 70px;
+    width: 100%;
     align-content: center;
     background-color: whitesmoke;
     border-radius: 18px;
@@ -22,9 +23,71 @@
     height: 36px;
     color: rgba(0, 0, 0, 0.87);
     font-family: 'Plus Jakarta Sans';
+    padding: 15px;
 }
 
 
 :host ::ng-deep .p-menubar .p-menubar-root-list>.p-menuitem:not(.p-highlight):not(.p-disabled)>.p-menuitem-content:hover {
-    border-radius: 19px !important
+    border-radius: 19px !important;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+:host ::ng-deep .p-menubar .p-menuitem.p-highlight>.p-menuitem-content {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 19px !important;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.menubar-end {
+    justify-content: center;
+    display: flex;
+}
+
+:host ::ng-deep .menubar-end input {
+    border-color: #0000001c;
+    border-radius: 18px !important;
+    border-width: 1px;
+}
+
+:host ::ng-deep.p-dropdown-trigger {
+    display: none;
+}
+
+:host ::ng-deep .p-dropdown {
+    border-radius: 40px;
+    border: none;
+}
+
+:host ::ng-deep .p-dropdown:not(.p-disabled).p-focus {
+    box-shadow: none;
+}
+
+:host ::ng-deep .p-dropdown:not(.p-disabled):hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+:host ::ng-deep .menubar-end input {
+    padding-left: 40px;
+    height: 40px;
+}
+
+.p-input-icon-left {
+    display: flex;
+    align-items: center;
+}
+
+:host ::ng-deep p-avatar {
+    display: flex;
+    align-items: center;
+}
+
+:host ::ng-deep .p-avatar {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.profile {
+    margin-left: 10px;
+    display: flex;
+    align-items: center
 }
