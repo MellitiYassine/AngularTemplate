@@ -19,6 +19,8 @@ import { AppComponent } from './app.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
+import { RippleModule } from 'primeng/ripple';
+import { MenuModule } from 'primeng/menu';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { SideBarComponent } from './side-bar/side-bar.component';
     OverlayModule,
     OverlayPanelModule,
     InputIconModule,
-    IconFieldModule
+    IconFieldModule,
+    RippleModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
