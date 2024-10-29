@@ -1,0 +1,14 @@
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    background-color: whitesmoke;
+    border-radius: 18px;
+    box-shadow: 0 2px 6px #2553b91b;
+    background-color: #fff;
+    padding: 0 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.87);
+}

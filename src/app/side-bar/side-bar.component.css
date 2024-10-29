@@ -1,4 +1,75 @@
-.container{
-   border-radius: 40px ;
+.container {
+   border-radius: 40px;
    box-shadow: 0 2px 6px #2553b91b;
+}
+
+.profile-name {
+   font-weight: 600;
+   font-size: 16px !important;
+}
+
+.profile-role {
+   font-weight: 400;
+   line-height: 20px;
+   font-family: Plus Jakarta Sans;
+   letter-spacing: normal;
+   margin: 0;
+   color: #111c3e;
+   font-size: 13px;
+}
+
+.profile-info {
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+   align-items: center;
+}
+
+.profile {
+   justify-content: center;
+   display: flex;
+   height: 100px;
+   align-items: center;
+   background-color: #e5f3fb !important;
+   border-radius: 18px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 15px;
+}
+
+:host ::ng-deep .p-menu {
+   border-radius: 18px;
+   box-shadow: 0 2px 6px #2553b91b;
+}
+
+.sub-itmes-label {
+   color: #111c2d;
+   font-family: 'Plus Jakarta Sans';
+   line-height: 20px;
+   font-size: 14px;
+   font-weight: 400;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.sub-itmes {
+   margin-bottom: 10px;
+}
+
+:host ::ng-deep .p-menu-start {
+   margin-left: 15px;
+   color: #111c2d;
+   font-weight: 0.75rem;
+
+}
+
+.items {
+   margin-bottom: 10pxpx;
+   margin-left: 20px;
+   text-transform: uppercase;
+   font-size: .75rem;
+   opacity: .5;
+   font-weight: 700;
+   margin-top: 24px;
+   color: #111c2d;
 }

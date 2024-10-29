@@ -4,16 +4,21 @@
   padding-top: 20px;
 }
 
+.side-bar {
+  padding-left: 15px;
+}
 
 .content-area {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  width: 70%;
+  align-items: center;
 }
 
 .top-menu-bar {
   height: 65px;
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: center;
 }
@@ -22,4 +27,11 @@
   flex-grow: 1;
   padding: 16px;
   overflow-y: auto;
+  width: 70%;
+}
+
+app-menu-bar {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
