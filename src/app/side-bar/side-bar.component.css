@@ -37,6 +37,16 @@
    margin-top: 15px;
 }
 
+:host ::ng-deep .p-avatar.p-avatar-circle {
+   width: 50px;
+   height: 50px;
+}
+
+:host ::ng-deep .p-avatar img {
+   height: 55px;
+   width: 55px;
+}
+
 :host ::ng-deep .p-menu {
    border-radius: 18px;
    box-shadow: 0 2px 6px #2553b91b;

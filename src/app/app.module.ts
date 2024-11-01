@@ -21,13 +21,15 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { RippleModule } from 'primeng/ripple';
 import { MenuModule } from 'primeng/menu';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
     SideBarComponent,
-    MainContentComponent
+    MainContentComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
