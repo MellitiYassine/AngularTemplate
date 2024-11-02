@@ -22,6 +22,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { RippleModule } from 'primeng/ripple';
 import { MenuModule } from 'primeng/menu';
 import { ContactsComponent } from './contacts/contacts.component';
+import { DividerModule } from 'primeng/divider';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     InputIconModule,
     IconFieldModule,
     RippleModule,
-    MenuModule
+    MenuModule,
+    DividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
