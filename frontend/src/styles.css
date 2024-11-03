@@ -6,4 +6,5 @@
 html {
     background-color: #f0f5f9;
     color: rgba(0, 0, 0, 0.86);
+    overflow: visible;
 }

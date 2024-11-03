@@ -1,0 +1,10 @@
+INSERT INTO Contact (id, name, email, address) VALUES (1, 'Alice Johnson', 'alice.johnson@example.com', '123 Maple St, Springfield');
+INSERT INTO Contact (id, name, email, address) VALUES (2, 'Bob Smith', 'bob.smith@example.com', '456 Oak St, Springfield');
+INSERT INTO Contact (id, name, email, address) VALUES (3, 'Charlie Brown', 'charlie.brown@example.com', '789 Pine St, Riverside');
+INSERT INTO Contact (id, name, email, address) VALUES (4, 'Diana Prince', 'diana.prince@example.com', '101 Elm St, Metropolis');
+INSERT INTO Contact (id, name, email, address) VALUES (5, 'Eve Adams', 'eve.adams@example.com', '202 Birch St, Gotham');
+INSERT INTO Contact (id, name, email, address) VALUES (6, 'Frank Miller', 'frank.miller@example.com', '303 Cedar St, Central City');
+INSERT INTO Contact (id, name, email, address) VALUES (7, 'Grace Lee', 'grace.lee@example.com', '404 Ash St, Coast City');
+INSERT INTO Contact (id, name, email, address) VALUES (8, 'Henry Kim', 'henry.kim@example.com', '505 Walnut St, Star City');
+INSERT INTO Contact (id, name, email, address) VALUES (9, 'Ivy Green', 'ivy.green@example.com', '606 Willow St, Keystone City');
+INSERT INTO Contact (id, name, email, address) VALUES (10, 'Jack White', 'jack.white@example.com', '707 Chestnut St, Smallville');
