@@ -16,13 +16,15 @@ import { OverlayModule } from 'primeng/overlay';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainContentComponent } from './main-content/main-content.component';
-import { MenuBarComponent } from './menu-bar/menu-bar.component';
-import { SideBarComponent } from './side-bar/side-bar.component';
+import { MainContentComponent } from './components/main-content/main-content.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { RippleModule } from 'primeng/ripple';
 import { MenuModule } from 'primeng/menu';
-import { ContactsComponent } from './contacts/contacts.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 import { DividerModule } from 'primeng/divider';
+import { HttpClient, HttpClientModule, provideHttpClient } from '@angular/common/http';
+import { ContactListComponent } from './components/contact-list/contact-list.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { DividerModule } from 'primeng/divider';
     MenuBarComponent,
     SideBarComponent,
     MainContentComponent,
-    ContactsComponent
+    ContactsComponent,
+    ContactListComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +55,7 @@ import { DividerModule } from 'primeng/divider';
     MenuModule,
     DividerModule,
   ],
-  providers: [],
+  providers: [provideHttpClient()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

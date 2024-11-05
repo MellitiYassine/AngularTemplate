@@ -2,16 +2,16 @@
   <div class="profile-pic">
     <img src="assets/BeardMan.png" alt="Profile Picture">
   </div>
-  <h2>Johnathan Doe</h2>
-  <p class="role">Web Designer</p>
+  <h2>{{contact?.name}}</h2>
+  <p class="role">{{contact?.job}}</p>
   
   <div class="actions">
     <button class="chat">Chat</button>
     <button class="follow">Follow</button>
   </div>
   
-  <p class="address">795 Folsom Ave, Suite 600<br>San Francisco, NY, 10003</p>
-  <p class="phone">Mo: (123) 456-7890</p>
+  <p class="address">{{contact?.address}}</p>
+  <p class="phone">{{contact?.email}}</p>
   <p-divider></p-divider>
 
 <div class="social-stats">
