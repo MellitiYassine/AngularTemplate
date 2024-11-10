@@ -1,7 +1,7 @@
-export interface Contact {
-    id?: number;
-    name: string;
-    email: string;
-    address: string;
-    job: string;
-  }
+export class Contact {
+  id?: number = undefined;
+  name: string = "";
+  email: string = "";
+  address: string = "";
+  job: string = "";
+}

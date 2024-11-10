@@ -1,0 +1,22 @@
+.contacts-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+:host ::ng-deep .p-button {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 18px
+}

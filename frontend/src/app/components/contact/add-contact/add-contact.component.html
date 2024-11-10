@@ -1,0 +1,22 @@
+<div class="contact-card">
+  <div class="profile-pic">
+    <img src="assets/BeardMan.png" alt="Profile Picture">
+  </div>
+
+  <!-- Name Input -->
+  <input type="text" [(ngModel)]="contact.name" placeholder="Name" />
+
+  <!-- Job/Role Input -->
+  <input type="text" [(ngModel)]="contact.job" placeholder="Job" />
+
+
+
+  <!-- Address Input -->
+  <input type="text" [(ngModel)]="contact.address" placeholder="Address" />
+
+  <!-- Email Input -->
+  <input type="email" [(ngModel)]="contact.email" placeholder="Email" />
+
+
+</div>
+<p-button label="Save" (onClick)="saveContact()" />

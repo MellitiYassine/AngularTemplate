@@ -1,3 +1,14 @@
+<p-button (onClick)="op.toggle($event)" icon="pi pi-edit" />
+    <p-overlayPanel #op>
+      <p-button label="Delete" (onClick)="delete()" />
+      <div>
+        <p-button label="Edit" (onClick)="edit()" />
+        <p-dialog header="Edit Profile" [modal]="true" [(visible)]="visible">
+            <app-add-contact></app-add-contact>
+        </p-dialog>
+      </div>
+    </p-overlayPanel>
+
 <div class="contact-card">
   <div class="profile-pic">
     <img src="assets/BeardMan.png" alt="Profile Picture">

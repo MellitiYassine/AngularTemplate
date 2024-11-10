@@ -1,0 +1,20 @@
+<div class="container">
+  <div>
+    <span class="p-input-icon-left">
+      <i class="pi pi-search"></i>
+      <input type="text" pInputText placeholder="Try to Searching...">
+    </span>
+  </div>
+  <div>
+    <p-button class="add-contact" (onClick)="showDialog()" label="Add Contact"></p-button>
+    <p-dialog header="Edit Profile" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }">
+        <app-add-contact></app-add-contact>
+    </p-dialog>
+  </div>
+</div>
+
+<div class="contacts-container">
+  <div *ngFor="let contact of contacts" class="contact-item">
+    <app-contacts [contact]="contact"></app-contacts>
+  </div>
+</div>

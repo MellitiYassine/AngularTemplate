@@ -1,0 +1,80 @@
+.contact-card {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+    margin: 20px;
+  
+  }
+  
+  .profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+    margin: 0;
+  }
+  
+  .role {
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .actions button {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 18px;
+  }
+  
+  .chat {
+    background-color: #4285f4;
+  }
+  
+  .follow {
+    background-color: #5f6368;
+  }
+  
+  .address, .phone {
+    color: #000000a3;
+    font-size: 12px;
+  }
+  
+  .social-stats {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-stats div {
+    text-align: center;
+    display: grid;
+  }
+  
+  .count {
+    font-weight: bold;
+    font-size: 0.6em;
+  }
+  
+  .label {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
